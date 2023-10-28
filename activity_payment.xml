@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Payment"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="123dp"
+        android:gravity="center"
+        android:text="PAYMENT"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etAdd"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter Your Mobile No."
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etNo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint=" Card Number Debit/Credit"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"
+        android:hint="CVV"
+        android:inputType="number"
+        android:shadowColor="@color/black" />
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="LOGIN"-->
+    <!--        tools:layout_editor_absoluteX="173dp"-->
+    <!--        tools:layout_editor_absoluteY="127dp" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button"-->
+    <!--        android:layout_width="103dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginLeft="150dp"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:shadowRadius="20"-->
+    <!--        android:text="login" />-->
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="-70dp">
+
+
+        <EditText
+            android:id="@+id/etMail1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Expire Date"
+            android:inputType="date"
+            android:padding="12dp"
+            android:shadowColor="@color/black" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="20"
+        android:text="pay" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvChange"-->
+    <!--        android:layout_width="169dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginLeft="115dp"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="Already Have Account?"-->
+    <!--        android:textSize="15dp"-->
+    <!--        android:textStyle="bold" />-->
+
+
+
+    </LinearLayout>

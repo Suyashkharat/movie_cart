@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dashboard"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:id="@+id/movie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="-80dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/tvMovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="Which Type of Movie Do You Want?"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="20dp"
+            android:padding="12dp"
+            android:shadowRadius="20"
+            android:text="Action"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnDrama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:text="Drama"
+            android:shadowRadius="20"
+            android:padding="12dp"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+
+
+        <!--    <LinearLayout-->
+
+        <!--        android:id="@+id/cereals"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_marginStart="16dp"-->
+        <!--        android:layout_marginTop="270dp"-->
+        <!--        android:layout_marginEnd="16dp"-->
+        <!--        android:layout_marginBottom="-100dp"-->
+        <!--        android:background="@drawable/curved_orange"-->
+        <!--        android:orientation="horizontal"-->
+        <!--        android:padding="10dp">-->
+
+
+        <Button
+            android:id="@+id/btnRomantic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:text="Romantic"
+            android:padding="12dp"
+
+            android:textAlignment="center"
+            android:shadowRadius="20"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
+</LinearLayout>
